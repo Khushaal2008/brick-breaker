@@ -20,6 +20,7 @@ bg1.scale = 7
 
 
      bouncer = createSprite(width/2,height/1.05,width/20,height/30);
+    bouncer.shapeColor = "pink"
 
      ball = createSprite(width/2,height/1.09,width/60,height/30);
      ball.addImage(ballImg)
